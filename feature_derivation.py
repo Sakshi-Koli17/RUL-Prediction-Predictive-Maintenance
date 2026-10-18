@@ -3,7 +3,7 @@ import pandas as pd
 
 def create_features(df: pd.DataFrame) -> pd.DataFrame:
     """Return a copy of df with features derived from existing columns."""
-    # For reference if you want to see the original data.
+    # for reference if you want to see the original data.
     features = df.copy()
 
     # Numeric combinations and safe ratios.
